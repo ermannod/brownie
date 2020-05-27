@@ -1,0 +1,49 @@
+.mh-800{
+  max-height: 800px;
+}
+
+.mh-400{
+  max-height: 400px;
+}
+
+.p-no{
+  padding:0;
+}
+
+.logo{
+  color: white;
+  font-weight: MontserratBold;
+  font-size: 1.5em;
+}
+
+.my-btn{
+  border: 2px solid lightgray;
+  padding: 10px 70px;
+  border-radius: 0px;
+  color: lightgray;
+  font-size: 1.5em;
+  &:hover{
+    border: 2px solid $gold;
+    color: $gold;
+  }
+}
+
+.my-img{
+  width: 100%
+}
+
+.background-gray{
+  background-color: #EAEAEC;
+}
+
+.gold{
+  color: $gold;
+}
+
+#upload{
+  bottom: 5%;
+  right: 2%;
+  background: white;
+  border-radius: 5px;
+  padding: 4px;
+}

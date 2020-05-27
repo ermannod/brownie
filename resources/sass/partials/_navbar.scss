@@ -1,0 +1,51 @@
+header{
+  height: 80px;
+  font-family: MontserratRegular;
+    .navbar {
+      padding: 0;
+      height: inherit;
+      z-index: 1;
+      width: 100%;
+
+        .gold{
+          background-color: $gold !important;
+          line-height: 80px;
+          height: 80px;
+          font-size: 1.5em;
+
+          #WLlogo{
+            background-color: $gold;
+            height: inherit;
+            font-family: MontserratBold;
+        }
+      }
+    }
+
+
+  button{
+    left:2%
+  }
+
+  .collapse{
+    font-size: 14px;
+    height: 80px;
+    background-color: white;
+  }
+
+  .navbar-collapse{
+    background-color: white;
+    z-index:1;
+  }
+
+    form{
+      padding-right: 30px;
+      .my-btn-search{
+        border: 0;
+        border-radius: 0;
+        border-bottom: 2px solid black;
+        width: 140px;
+
+      }
+    }
+
+}

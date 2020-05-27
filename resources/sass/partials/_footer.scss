@@ -1,0 +1,46 @@
+#footer{
+  background-color: #333333;
+
+  .logo{
+    font-family: MontserratBold;
+    font-size: 1.5em;
+    &:hover{
+      color: $gold;
+      text-decoration: none;
+    }
+  }
+  .row:not(:last-child){
+    padding-top: 60px;
+  }
+  .row:last-child{
+    padding-bottom: 60px;
+  }
+  .list-group-item{
+    background: transparent;
+    border: none;
+    font-family: MillerDisplay;
+     a{
+       color:$gold;
+       &:hover{
+         color: $gold;
+       }
+     }
+     span{
+       margin-left: 16px;
+     }
+   }
+   .social{
+     font-family: MontserratBold;
+     letter-spacing: 4px;
+   }
+}
+
+#rights{
+  background-color: #303030;
+  height: 60px;
+
+  .row{
+    margin: 0 30px;
+    width: 100%;
+  }
+}

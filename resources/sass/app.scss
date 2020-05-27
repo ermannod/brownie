@@ -1,0 +1,27 @@
+// Fonts
+@font-face {
+    font-family: MerriweatherRegular;
+    src: url('/font/Merriweather-Regular.ttf');
+}
+@font-face {
+    font-family: MillerDisplay;
+    src: url('/font/Miller-Display_30501.ttf');
+}
+@font-face {
+    font-family: MontserratBold;
+    src: url('/font/Montserrat-Bold.ttf');
+}
+@font-face {
+    font-family: MontserratRegular;
+    src: url('/font/Montserrat-Regular.ttf');
+}
+
+// Variables
+@import 'variables';
+
+// Partials
+@import 'partials/_navbar';
+@import 'partials/_homepage';
+@import 'partials/_footer';
+@import 'partials/_general';
+@import 'partials/_upload';
