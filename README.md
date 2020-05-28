@@ -16,6 +16,7 @@ You have to duplicate .env.example, rename it with .env title and fill it with c
 Open your comand prompt and run the following commands, to populate DB tables and open correct route to see the project:
 
 ```
+composer install
 php artisan key:generate
 php artisan migrate
 php -S localhost:8000 -t public/
