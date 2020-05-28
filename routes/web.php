@@ -17,11 +17,8 @@ Route::get('/', function () {
     return view('homepage.hp');
 });
 
-Route::get('/upload', function(){
-    return view('upload.upload');
-});
-
-Route::get('image-upload', 'ImageUploadController@ImageUpload')->name('image.upload');
-Route::post('image-upload', 'ImageUploadController@ImageUploadPost')->name('image.upload.post');
+Route::get('upload', 'UploadController@index');
+Route::post('image-upload', 'UploadController@ResizeImage')->name('image.upload.post');
+Route::resource('upload' , 'UploadController');
 
 Auth::routes(['register' => false]);

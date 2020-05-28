@@ -1,3 +1,20 @@
 .uploader{
-  height: 800px;
+
+
+  .form-control{
+    padding: 3px;
+  }
+
+  .card{
+    margin-top: 10px;
+  }
+
+  .pagination{
+    display: flex;
+    justify-content: center;
+  }
+
+  .nothing-here{
+    height: calc( 100vh - 718px );
+  }
 }

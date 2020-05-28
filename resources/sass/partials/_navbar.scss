@@ -28,7 +28,6 @@ header{
 
   .collapse{
     font-size: 14px;
-    height: 80px;
     background-color: white;
   }
 
@@ -48,4 +47,12 @@ header{
       }
     }
 
+}
+
+@media screen and (min-width: 991px){
+  header{
+    .collapse{
+      height: 80px;
+    }
+  }
 }

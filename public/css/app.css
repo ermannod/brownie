@@ -49,7 +49,6 @@ header button {
 
 header .collapse {
   font-size: 14px;
-  height: 80px;
   background-color: white;
 }
 
@@ -67,6 +66,12 @@ header form .my-btn-search {
   border-radius: 0;
   border-bottom: 2px solid black;
   width: 140px;
+}
+
+@media screen and (min-width: 991px) {
+  header .collapse {
+    height: 80px;
+  }
 }
 
 .jumbotron {
@@ -373,6 +378,10 @@ header form .my-btn-search {
   max-height: 400px;
 }
 
+.mtb {
+  margin: 8px 0;
+}
+
 .p-no {
   padding: 0;
 }
@@ -416,7 +425,20 @@ header form .my-btn-search {
   padding: 4px;
 }
 
-.uploader {
-  height: 800px;
+.uploader .form-control {
+  padding: 3px;
+}
+
+.uploader .card {
+  margin-top: 10px;
+}
+
+.uploader .pagination {
+  display: flex;
+  justify-content: center;
+}
+
+.uploader .nothing-here {
+  height: calc( 100vh - 718px );
 }
 
